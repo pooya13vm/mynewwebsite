@@ -1,0 +1,97 @@
+.skill {
+  margin-bottom: 1rem;
+  position: relative;
+  overflow-x: hidden;
+  width: 90%;
+  padding-left: 5%;
+}
+.skill > p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #999999;
+  margin: 0;
+}
+.skill:before {
+  width: 100%;
+  height: 5px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #999999;
+  bottom: 0;
+}
+.skill-bar {
+  width: 100%;
+  height: 5px;
+  background: #333333;
+  display: block;
+  position: relative;
+}
+
+/* SKILL 1 */
+.skill1 {
+  width: 95%;
+}
+.skill-bar span {
+  position: absolute;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+.skill-bar {
+  position: relative;
+}
+
+.skill1 .skill-count1 {
+  right: 0;
+}
+/* SKILL 2 */
+.skill2 {
+  width: 85%;
+}
+
+.skill2 .skill-count2 {
+  right: 0;
+}
+/* SKILL 3 */
+.skill3 {
+  width: 75%;
+}
+.skill3 .skill-count3 {
+  right: 0;
+}
+
+/* SKILL 4 */
+.skill4 {
+  width: 85%;
+}
+
+.skill4 .skill-count4 {
+  right: 0;
+}
+
+/* SKILL 5 */
+.skill5 {
+  width: 80%;
+}
+
+.skill5 .skill-count5 {
+  right: 0;
+}
+
+/* GITHUB SOURCE STYLE  */
+/* .github-source {
+  float: right;
+  display: block;
+  color: #fff;
+  margin: 0 20px;
+  position: relative;
+  z-index: 999999;
+  top: 0;
+}
+.github-source i {
+  font-size: 50px;
+  color: #000;
+} */
