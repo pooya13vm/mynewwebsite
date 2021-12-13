@@ -177,3 +177,6 @@ h3.display-4 {
 .skill-title {
   margin-left: 5%;
 }
+.card{
+  height: 26rem !important;
+}
