@@ -180,3 +180,60 @@ h3.display-4 {
 .card{
   height: 26rem !important;
 }
+.portfolio{
+  min-height: 70vh;
+  overflow: hidden;
+}
+.image-section{
+  position: relative;
+}
+.image-section .image-container{
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 53%;
+  bottom: 0;
+  max-width: 100%;
+  
+  padding-bottom: 20px;
+}
+.mock-up-1{
+  position: relative;
+  width: 100%;
+  padding-top: 10%;
+}
+.mock-up-1 img {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.4);
+}
+.mock-up-1 .object{
+  position: absolute;
+  width: 50%;
+}
+.mock-up-1 .object-1 {
+  top: 17%;
+  left: 22%;
+}
+.mock-up-1 .object-2 {
+  top: 0;
+  left: 48%;
+}
+.mock-up-1 .object-3 {
+  top: 38%;
+  left: 6%;
+}
+.mock-up-1 .object-4 {
+  top: 24%;
+  left: 65%;
+  
+}
+.mock-up-1 .object-5 {
+  top: 155%;
+  left: 60%;
+}
+.mock-up-1 .object-6 {
+  top: 98%;
+  left: 10%;
+  
+}
