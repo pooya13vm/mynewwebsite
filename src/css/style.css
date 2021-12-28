@@ -181,59 +181,66 @@ h3.display-4 {
   height: 26rem !important;
 }
 .portfolio{
-  min-height: 70vh;
+  
   overflow: hidden;
 }
 .image-section{
   position: relative;
+  min-height: 58vh;
+}
+.partfolio-content {
+  display: flex;
 }
 .image-section .image-container{
-  position: absolute;
-  right: 0;
-  top: 0;
-  left: 53%;
-  bottom: 0;
-  max-width: 100%;
-  
-  padding-bottom: 20px;
-}
-.mock-up-1{
   position: relative;
-  width: 100%;
-  padding-top: 10%;
+  
 }
-.mock-up-1 img {
-  max-width: 100%;
+.partfolio-text{
+  width: 50%;
+  margin-top: 3rem;
+}
+.object img {
+  /* max-width: 100%; */
   border-radius: 6px;
   box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.4);
 }
-.mock-up-1 .object{
+.object{
   position: absolute;
   width: 50%;
 }
-.mock-up-1 .object-1 {
-  top: 17%;
-  left: 22%;
-}
-.mock-up-1 .object-2 {
+.object-1 {
   top: 0;
-  left: 48%;
+  left: 28vw;
 }
-.mock-up-1 .object-3 {
+.object-2 {
+  top: 9%;
+  left: 18vw;
+}
+.object-3 {
   top: 38%;
-  left: 6%;
+  left: 7vw;
 }
-.mock-up-1 .object-4 {
-  top: 24%;
-  left: 65%;
+.object-4 {
+  top: 139%;
+  left: 32vw;
   
 }
-.mock-up-1 .object-5 {
-  top: 155%;
-  left: 60%;
+.object-5 {
+  top: 55%;
+  left: 24vw;
 }
-.mock-up-1 .object-6 {
-  top: 98%;
-  left: 10%;
+.object-6 {
+  top: 174%;
+  left: 2vw;
   
+}
+@media (max-width: 990px) {
+  .partfolio-content{
+    flex-direction: column;
+  }
+  .partfolio-text{
+    width: 100%;
+    margin-top: 0 !important;
+    text-align: center;
+  }
 }
